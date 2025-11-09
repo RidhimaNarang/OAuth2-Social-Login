@@ -1,49 +1,12 @@
-🚀 Full Stack Development Project — 23BDA70067 & 23BDA70040
+# React + Vite
 
-This repository contains the complete Full Stack Development (FSD) project developed as part of the academic submission for the BDA program. The project demonstrates the integration of frontend, backend, and database components to deliver a fully functional web application.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-📄 Project Overview
+Currently, two official plugins are available:
 
-The project focuses on building a responsive and interactive web application using modern full stack technologies.
-It includes:
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-A user-friendly frontend interface
+## Expanding the ESLint configuration
 
-A secure backend API
-
-A robust database for data persistence
-
-Complete project documentation and report (Project Report FSD_23BDA70067_23BDA70040.pdf)
-
-🛠️ Tech Stack
-
-Frontend: React.js / HTML / CSS / JavaScript
-
-Backend: Node.js / Express.js
-
-Database: MongoDB
-
-Tools: VS Code, Postman, Git, GitHub
-
-⚙️ Features
-
-User authentication and authorization
-
-Role-based access (Admin, User, etc.)
-
-CRUD operations
-
-RESTful API integration
-
-Responsive and clean UI design
-
-📚 Documentation
-
-The detailed project workflow, architecture, and screenshots are included in:
-📘 Project Report FSD_23BDA70067_23BDA70040.pdf
-
-🧑‍💻 Contributors
-
-Ridhima Narang (23BDA70067)
-
-[Teammate Name] (23BDA70040)
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
